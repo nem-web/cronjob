@@ -1,7 +1,7 @@
 import requests
 
 # URL of the website
-url = "http://golbojhi.epizy.com"
+url = "https://golbojhi.epizy.com"
 
 try:
     response = requests.get(url)

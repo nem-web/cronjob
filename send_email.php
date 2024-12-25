@@ -16,14 +16,14 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com'; // Gmail SMTP server
     $mail->SMTPAuth = true;
-    $mail->Username = '@gmail.com'; // Your Gmail address
-    $mail->Password = 'your-email-password'; // Your Gmail password or App Password
+    $mail->Username = 'system.bdayreminder@gmail.com'; // Your Gmail address
+    $mail->Password = 'actv lvwy iznt ogcu'; // Your Gmail password or App Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
     // Recipient and sender
-    $mail->setFrom('your-email@gmail.com', 'Your Name');
-    $mail->addAddress('recipient-email@gmail.com', 'Recipient Name'); // Recipient email and name
+    $mail->setFrom('system.bdayreminder@gmail.com', 'Reminder');
+    $mail->addAddress('kathariyanemchandra@gmail.com', 'Nem'); // Recipient email and name
 
     // Content
     $mail->isHTML(true);
